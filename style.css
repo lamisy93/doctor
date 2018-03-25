@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Arvo:400,400i,700");
+html { height: 100%;}
+body { height: 100%; margin: 0px; font-size: 18px; }
+body, input, textarea {font-family: 'Arvo', serif; color: #333; font-weight: 300;}
+h1, h2, h3, h4, h5, h6 { margin: 0px;}
+p { margin: 0px;}
+ul { padding: 0px;}
+#main {background-color: #923616; width: 100%; height: 82%; text-align: center;}
+h1 {font-size: 28px; font-weight: 500; color: white}
+#contenu {display: flex; flex-direction: row; margin-left: 40%; margin-top: 50px;}
+#texte {position: relative; margin-left: 10px; width: 35%; font-size: 16px; color: white}
+.bras1 {border-radius: 50%; opacity: 0.7; position: absolute; background-color: black; width: 40px; height: 40px; top: 43%; left: 48%; cursor: pointer;}
+.bras1:hover {background-color: red;}
+.epaule1 {border-radius: 50%; opacity: 0.7; position: absolute; background-color: black; width: 40px; height: 40px; top: 27%; left: 40%; cursor: pointer;}
+.epaule1:hover {background-color: red;}
+.main1 {border-radius: 50%; opacity: 0.7; position: absolute; background-color: black; width: 40px; height: 40px;  top: 50%; left: 39%; cursor: pointer;}
+.main1:hover {background-color: red;}
+.hanche1 {border-radius: 50%; opacity: 0.7; position: absolute; background-color: black; width: 40px; height: 40px; top: 50%; left: 46%; cursor: pointer;}
+.hanche1:hover {background-color: red;}
+.genoux1 {border-radius: 50%; opacity: 0.7; position: absolute; background-color: black; width: 40px; height: 40px; top: 65%; left: 42%; cursor: pointer;}
+.genoux1:hover {background-color: red;}
+.cheville1 {border-radius: 50%; opacity: 0.7; position: absolute; background-color: black; width: 40px; height: 40px; top: 78%; left: 45%; cursor: pointer;}
+.cheville1:hover {background-color: red;}
+footer {background-color: white; width: 100%; height: 18%; text-align: left;}
+#signatures {color: #8b8b8b; font-weight: 400; margin-top: 30px}
+.signature1 {position: absolute; font-size: 14px; right: 110px; }
+.signature2 {position: absolute; font-size: 12px; right: 30px;}
